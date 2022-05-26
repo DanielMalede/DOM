@@ -17,7 +17,3 @@
 //     }
 // }
 // printUserColor()
-
-// function userNamePlu(params) {
-    
-// }
