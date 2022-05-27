@@ -17,3 +17,23 @@
 //     }
 // }
 // printUserColor()
+// function printText() {
+//     var userText = prompt("enter your text please")
+//     var userTag = prompt("enter a tag please")
+//     document.write(userText+userTag) 
+// }
+// printText()
+///////////////////////////////////////////////////////////////////////////
+// function printInput() {
+//     var userTypeInput = prompt("enter your type input")
+//     var userText = prompt("enter your text input")
+//     document.write(userTypeInput+userText)
+// }
+// printInput()
+//////////////////////////////////////////////////////////////////////////
+function changeElementByClass(myClass,myText) {
+    var myText = prompt("enter your text")
+    var myClass = "class=userClass"
+    document.write()
+}
+
