@@ -31,9 +31,5 @@
 // }
 // printInput()
 //////////////////////////////////////////////////////////////////////////
-function changeElementByClass(myClass,myText) {
-    var myText = prompt("enter your text")
-    var myClass = "class=userClass"
-    document.write()
-}
+
 
