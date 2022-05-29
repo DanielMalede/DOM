@@ -37,14 +37,12 @@
     
 // }
 
-function addSpan() {
-    var elemetP= document.getElementsByTagName("p")
-    for (var i = 0; i < elemetP; i++) {
-        if (elemetP[i]<elemetP.length) {
-            elemetP.innerText ="<span>"+"hollaa"+"</span>"
+// function addSpan() {
+//     var elemetP= document.getElementsByTagName("p")
+//     for (var i = 0; i < elemetP.length; i++) {
+//             elemetP[i].innerHTML ="<span>"+"hollaa"+"</span>"
             
-        }
-    }
-    document.write(elemetP)
-}
-addSpan()
+//         }
+//     document.write(elemetP)
+// }
+// addSpan()
