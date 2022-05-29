@@ -32,4 +32,19 @@
 // printInput()
 //////////////////////////////////////////////////////////////////////////
 
+// function changeClass(myClass,myText) {
 
+    
+// }
+
+function addSpan() {
+    var elemetP= document.getElementsByTagName("p")
+    for (var i = 0; i < elemetP; i++) {
+        if (elemetP[i]<elemetP.length) {
+            elemetP.innerText ="<span>"+"hollaa"+"</span>"
+            
+        }
+    }
+    document.write(elemetP)
+}
+addSpan()
