@@ -17,25 +17,29 @@
 //     }
 // }
 // printUserColor()
+
+
 // function printText() {
 //     var userText = prompt("enter your text please")
 //     var userTag = prompt("enter a tag please")
-//     document.write(userText+userTag) 
+//     document.write("<"+userTag+">"+userText+"<"+userTag+"/>") 
 // }
 // printText()
-///////////////////////////////////////////////////////////////////////////
+
+
 // function printInput() {
 //     var userTypeInput = prompt("enter your type input")
 //     var userText = prompt("enter your text input")
-//     document.write(userTypeInput+userText)
+//     document.write("<"+userTypeInput+"/>"+userText+"<"+userTypeInput+"/>")
 // }
 // printInput()
-//////////////////////////////////////////////////////////////////////////
+
 
 // function changeClass(myClass,myText) {
-
-    
+//     var myText = prompt("enter a Text")
+//     myClass = document.getElementsByClassName("OneLove").innerHTML = myText
 // }
+// changeClass()
 
 // function addSpan() {
 //     var elemetP= document.getElementsByTagName("p")
@@ -46,3 +50,14 @@
 //     document.write(elemetP)
 // }
 // addSpan()
+
+function print() {
+    var userName = prompt("enter your name")    
+    var userLastName = prompt("enter your last name")    
+    var userAge = prompt("enter your age") 
+    document.write(" "+userAge+" "+userName+" "+userLastName+" ")
+    if (userAge>18) {
+        document.write(prompt("enter Text"))
+    }   
+}
+print()
