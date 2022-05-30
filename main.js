@@ -19,34 +19,37 @@
 // printUserColor()
 
 
-// function printText() {
-//     var userText = prompt("enter your text please")
-//     var userTag = prompt("enter a tag please")
-//     document.write("<"+userTag+">"+userText+"<"+userTag+"/>") 
+// function buildText() {
+//     var userText = prompt("enter a Text")
+//     var userTagName = prompt("enter a Tag Name")
+
+    
 // }
-// printText()
 
 
-function printInput() {
-    var userTypeInput = prompt("enter your type input")
-    document.write("<input type ="+userTypeInput+"/>")
-}
-printInput()
+// function printInput() {
+//     var userTypeInput = prompt("enter your type input")
+//     document.body.textContent("<input type ="+userTypeInput+"/>")
+// }
+// printInput()
+
 
 
 // function changeClass(myClass,myText) {
-//     var myText = prompt("enter a Text")
-//     myClass = document.getElementsByClassName("OneLove").innerHTML = myText
+//     var changeClass = document.getElementsByClassName(myClass)
+//     for (var i = 0; i < changeClass.length; i++) {
+//         changeClass[i].innerText = myText     
+//     }
 // }
-// changeClass()
+// changeClass("OneLove","dfgGFDFGDFhjk")
 
 // function addSpan() {
-//     var elemetP= document.getElementsByTagName("p")
-//     for (var i = 0; i < elemetP.length; i++) {
-//             elemetP[i].innerHTML ="<span>"+"hollaa"+"</span>"
+//     var pArray= document.getElementsByTagName("p")
+//     for (var i = 0; i < pArray.length; i++) {
+//             pArray[i].innerHTML ="<span>"+"hollaa"+"</span>"
             
 //         }
-//     document.write(elemetP)
+//     document.write(pArray)
 // }
 // addSpan()
 
@@ -56,20 +59,98 @@ printInput()
 //     var userAge = prompt("enter your age") 
 //     document.write(" "+userAge+" "+userName+" "+userLastName+"<br>")
 //     if (userAge>18) {
-
+//         document.write("<input type=")
 //     }   
 // }
 // print()
 
-// function movies() {
+
+// function printMovie() {
 //     var movie = {
-//         movieName:prompt("enter movie name"),
-//         movieview:prompt("enter movie view"),
-//         movieYear:prompt("movie Year"),
+//         nameMovie:prompt("enter name movie"),
+//         nameViews:prompt("enter name views"),
+//         nameYear:prompt("enter name year"),
+//         userMovieURL:prompt("enter movie url"),
 //     }
-//     document.write("<h1>"+movie.movieName+"</h1>"+"<h3>"+movie.movieview+"</h3>"+"<h6>"+movie.movieYear+"</h6>")
-//     var img = document.createElement("img")
-//     img.src = prompt()
-//     document.write(img.src)
+//     document.write("<h1>"+movie.nameMovie+"</h1>"+"<h3>"+movie.nameViews+"</h3>"+"<h6>"+movie.nameYear+"</h6>"+"<img src="+movie.userMovieURL+">")
 // }
-// movies()
+// printMovie()
+
+// var worker = {
+//     workerName:prompt("enter your name"),
+//     workerLastName:prompt("enter your last name"),
+//     workerEmail:prompt("enter your email"),
+//     workerClass:prompt("enter your class"),
+// }
+// document.write("<b>"+worker.workerName+"</b>"+"<ins>"+worker.workerLastName+"</ins>"+"<h5>"+worker.workerEmail+"</h5>"+"<span>"+worker.workerClass+"</span>")
+
+
+// function printConstractur() {
+//     var userNumber =+prompt("enter a number")
+//     for (var i = 0; i < userNumber; i++) {
+//         var building ={
+//             constracturName:prompt("enter constractur"),
+//             companyName :prompt("enter company name"),
+//             floorNum :prompt("enter floor Number"),
+//             apprtmentNumber :prompt("enter apprtment Number"),
+//         } 
+//         document.body.innerHTML="<b>"+building.companyName+"</b>"+"<h2>"+building.companyName+"</h2>"+"<sup>"+building.floorNum+"</sup>"+"<h1>"+building.constracturName+"</h1>"
+//     }
+// }
+// printConstractur()
+
+// function printStores() {
+//     var userNumber = +prompt("enter number")
+//     for (let i = 0; i < userNumber; i++) {
+//         var store = {
+//             storeName:prompt("enter store name"),
+//             storeAddress:prompt("enter store address"),
+//             storeClassNumber:prompt("enter Class Number"),
+//             storeEmployeesNumber:+prompt("enter store Employees Number"),
+//         }
+//         if (store.storeEmployeesNumber>10) {
+//             document.body.innerHTML="<b>"+store.storeName+"</b>"+"<h2>"+store.storeAddress+"</h2>"+"<sup>"+store.storeClassNumber+"</sup>"+"<h1>"+store.storeEmployeesNumber+"</h1>"
+//         }
+//     }   
+// }
+// printStores()
+
+// function sum() {
+//     if (condition) {
+        
+//     }
+    
+// }
+
+
+// function somefun() {
+//     var userNumber = +prompt("enter number")
+//     var list = document.getElementById("listtt")
+//     for (var i = 0; i < userNumber; i++) {
+//         var contact = {
+//             username:prompt("enter your name"),
+//             usercompany:prompt("enter your company"),
+//             userphone:prompt("enter your phone"),
+//             useremail:prompt("enter your email"),
+//         }
+//         list.innerHTML+="<li>"+ contact.username+"</li>"
+//     }
+// }
+// somefun()
+
+
+// function addToTable() {
+//     var userNumber =+prompt("enter a number")
+//     var mytable = document.getElementById("hatable")
+//     for (var i = 0; i < userNumber; i++) {
+//         var doctor = {
+//             doctorFullName:prompt("enter your name doctor"),
+//             doctorIntership:prompt("enter your intership doctor"),
+//             doctorPhone:prompt("enter your phone doctor"),
+//             doctorIsAvailable:confirm("doctor are you available"),
+//             doctorEmail:prompt("enter your Email")
+//         }
+//         mytable.innerHTML+= "<tr>"+"<td>"+doctor.doctorFullName+"</td>"+"<td>"+doctor.doctorIntership+"</td>"+"<td>"+doctor.doctorPhone+"</td>"+"<td>"+doctor.doctorEmail+"</td>"+"</tr>"
+//     }
+// }
+// addToTable()
