@@ -139,18 +139,18 @@
 // somefun()
 
 
-// function addToTable() {
-//     var userNumber =+prompt("enter a number")
-//     var mytable = document.getElementById("hatable")
-//     for (var i = 0; i < userNumber; i++) {
-//         var doctor = {
-//             doctorFullName:prompt("enter your name doctor"),
-//             doctorIntership:prompt("enter your intership doctor"),
-//             doctorPhone:prompt("enter your phone doctor"),
-//             doctorIsAvailable:confirm("doctor are you available"),
-//             doctorEmail:prompt("enter your Email")
-//         }
-//         mytable.innerHTML+= "<tr>"+"<td>"+doctor.doctorFullName+"</td>"+"<td>"+doctor.doctorIntership+"</td>"+"<td>"+doctor.doctorPhone+"</td>"+"<td>"+doctor.doctorEmail+"</td>"+"</tr>"
-//     }
-// }
-// addToTable()
+function addToTable() {
+    var userNumber =+prompt("enter a number")
+    var mytable = document.getElementById("hatable")
+    for (var i = 0; i < userNumber; i++) {
+        var doctor = {
+            doctorFullName:prompt("enter your name doctor"),
+            doctorIntership:prompt("enter your intership doctor"),
+            doctorPhone:prompt("enter your phone doctor"),
+            doctorIsAvailable:confirm("doctor are you available"),
+            doctorEmail:prompt("enter your Email")
+        }
+        mytable.innerHTML+= "<tr>"+"<td>"+doctor.doctorFullName+"</td>"+"<td>"+doctor.doctorIntership+"</td>"+"<td>"+doctor.doctorPhone+"</td>"+"<td>"+doctor.doctorEmail+"</td>"+"</tr>"
+    }
+}
+addToTable()
