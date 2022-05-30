@@ -27,12 +27,11 @@
 // printText()
 
 
-// function printInput() {
-//     var userTypeInput = prompt("enter your type input")
-//     var userText = prompt("enter your text input")
-//     document.write("<"+userTypeInput+"/>"+userText+"<"+userTypeInput+"/>")
-// }
-// printInput()
+function printInput() {
+    var userTypeInput = prompt("enter your type input")
+    document.write("<input type ="+userTypeInput+"/>")
+}
+printInput()
 
 
 // function changeClass(myClass,myText) {
@@ -51,13 +50,26 @@
 // }
 // addSpan()
 
-function print() {
-    var userName = prompt("enter your name")    
-    var userLastName = prompt("enter your last name")    
-    var userAge = prompt("enter your age") 
-    document.write(" "+userAge+" "+userName+" "+userLastName+" ")
-    if (userAge>18) {
-        document.write(prompt("enter Text"))
-    }   
-}
-print()
+// function print() {
+//     var userName = prompt("enter your name")    
+//     var userLastName = prompt("enter your last name")    
+//     var userAge = prompt("enter your age") 
+//     document.write(" "+userAge+" "+userName+" "+userLastName+"<br>")
+//     if (userAge>18) {
+
+//     }   
+// }
+// print()
+
+// function movies() {
+//     var movie = {
+//         movieName:prompt("enter movie name"),
+//         movieview:prompt("enter movie view"),
+//         movieYear:prompt("movie Year"),
+//     }
+//     document.write("<h1>"+movie.movieName+"</h1>"+"<h3>"+movie.movieview+"</h3>"+"<h6>"+movie.movieYear+"</h6>")
+//     var img = document.createElement("img")
+//     img.src = prompt()
+//     document.write(img.src)
+// }
+// movies()
