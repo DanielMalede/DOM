@@ -100,23 +100,23 @@
 // printConstractur()
 
 
-// var funResult  = 0
-// function printStores() {
-//     var userNumber = +prompt("enter number")
-//     for (let i = 0; i < userNumber; i++) {
-//         var store = {
-//             storeName:prompt("enter store name"),
-//             storeAddress:prompt("enter store address"),
-//             storeClassNumber:prompt("enter Class Number"),
-//             storeEmployeesNumber:+prompt("enter store Employees Number"),
-//         }
-//         if (store.storeEmployeesNumber>10) {
-//             document.body.innerHTML="<b>"+store.storeName+"</b>"+"<h2>"+store.storeAddress+"</h2>"+"<sup>"+store.storeClassNumber+"</sup>"+"<h1>"+store.storeEmployeesNumber+"</h1>"
-//             funResult++
-//         }
-//     }   
-// }
-// printStores()
+var funResult  = 0
+function printStores() {
+    var userNumber = +prompt("enter number")
+    for (let i = 0; i < userNumber; i++) {
+        var store = {
+            storeName:prompt("enter store name"),
+            storeAddress:prompt("enter store address"),
+            storeClassNumber:prompt("enter Class Number"),
+            storeEmployeesNumber:+prompt("enter store Employees Number"),
+        }
+        if (store.storeEmployeesNumber>10) {
+            document.body.innerHTML="<b>"+store.storeName+"</b>"+"<h2>"+store.storeAddress+"</h2>"+"<sup>"+store.storeClassNumber+"</sup>"+"<h1>"+store.storeEmployeesNumber+"</h1>"
+            funResult++
+        }
+    }   
+}
+printStores()
 
 
 // function sum() {
