@@ -113,7 +113,7 @@
 //         }
 //         if (store.storeEmployeesNumber>10) {
 //             document.body.innerHTML="<b>"+store.storeName+"</b>"+"<h2>"+store.storeAddress+"</h2>"+"<sup>"+store.storeClassNumber+"</sup>"+"<h1>"+store.storeEmployeesNumber+"</h1>"
-//             funResult++
+//             funResult+=4
 //         }
 //     }   
 // }
